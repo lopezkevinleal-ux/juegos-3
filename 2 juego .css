@@ -1,0 +1,35 @@
+.tableroSimon {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 90px 90px;
+    gap: 8px;
+    margin: 16px 0;
+    width: 188px;
+}
+
+.colorSimon {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.55;
+}
+
+#colorVerde {
+    background: #17a673;
+}
+
+#colorRojo {
+    background: #d1435b;
+}
+
+#colorAmarillo {
+    background: #d9c02d;
+}
+
+#colorAzul {
+    background: #2451c4;
+}
+
+.colorSimon.activo {
+    opacity: 1;
+}
